@@ -24,8 +24,8 @@ body{
 header{
     background-color: black;
     padding-bottom:10px;
-    height: 80vh;
-    width: 100vw;
+    
+    
 }
 
 header>h1{
@@ -33,7 +33,7 @@ header>h1{
     text-align: center;
     margin:0px;
     font-family:Principal, sans-serif  ;
-    font-size: 20vh;
+    font-size: 10vw;
     padding-top: 45px;
     
 }
@@ -41,7 +41,7 @@ header>h1{
 header>p{
     color: white;
     text-align: center;
-    font-size: 3vh;
+    font-size: 3vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -64,7 +64,7 @@ div.texto{
     background-attachment: fixed;
     color: white;
     background-position: right center;
-    height: 90vh;
+    height: 85vw;
 }
 
 
@@ -75,14 +75,14 @@ div.texto{
     background-attachment: fixed;
     color: white;
     background-position: right center;
-    height: 90vh;
+    height: 85vh;
 }
 
 #img1>p, #img2>p{
     background-color: rgba(0, 0, 0, 0.336);
     display: inline-block;
     white-space: pre-line;
-    font-size: 05vh;
+    font-size: 05vw;
     text-align: justify;
     margin-left:20px;
     margin-top: 90px;
@@ -91,7 +91,7 @@ div.texto{
 
 
 .texto>p{
-    font-size: 05vh;
+    font-size: 5vw;
     text-align: justify;
     
 }
@@ -101,5 +101,5 @@ footer>p{
     background-color: black;
     text-align: center;
     margin-bottom: 0px;
-    font-size: 05vh;
+    font-size: 05vw;
 }
