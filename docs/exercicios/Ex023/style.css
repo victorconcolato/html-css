@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@font-face { font-family: 'Principal'; src:url('Fontes/passion_one/PassionOne-bold.otf') format('opentype')
+}
+
+@font-face { font-family: 'Poema'; src:url('Fontes/sriracha/Sriracha-Regular.ttf') format('truetype')
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+strong{
+    font-weight: bolder;
+
+
+}
+body{
+    margin:0px 0px 0px 0px;
+    padding-bottom: 0px;
+    
+}
+
+header{
+    background-color: black;
+    padding-bottom:10px;
+    height: 40vh;
+}
+
+header>h1{
+    color: white;
+    text-align: center;
+    margin:0px;
+    font-family:Principal, sans-serif  ;
+    font-size: 20vh;
+    padding-top: 45px;
+    
+}
+
+header>p{
+    color: white;
+    text-align: center;
+    font-size: 3vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    font-family: Poema,sans-serif;
+    text-align:left ;
+}
+
+div{
+    white-space: pre-line;
+    padding-bottom:20px ;
+    text-align: justify;
+    padding-left: 20px;
+    
+    
+}
+
+#img1{
+    background-image: url(imagens/Joaninha.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    background-position: right center;
+}
+
+#img1>p, #img2>p{
+    background-color: rgba(0, 0, 0, 0.336);
+    display:inline-block;
+    padding:10px;
+    margin: 0px;
+}
+
+#img2{
+    background-image: url(imagens/pergaminho.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    background-position: right center;
+
+}
+
+p{
+    font-size: 05vh;
+    
+}
+
+footer>p{
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0px;
+}
