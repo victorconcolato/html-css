@@ -52,13 +52,11 @@ main{
     text-align:left ;
 }
 
-div{
+div.texto{
     white-space: pre-line;
     padding-bottom:20px ;
     text-align: justify;
-    padding-left: 20px;
-    
-    
+    padding-left: 20px;    
 }
 
 #img1{
@@ -68,14 +66,9 @@ div{
     background-attachment: fixed;
     color: white;
     background-position: right center;
+    height: 90vh;
 }
 
-#img1>p, #img2>p{
-    background-color: rgba(0, 0, 0, 0.336);
-    display:inline-block;
-    padding:10px;
-    margin: 0px;
-}
 
 #img2{
     background-image: url(imagens/pergaminho.jpg) ;
@@ -84,11 +77,24 @@ div{
     background-attachment: fixed;
     color: white;
     background-position: right center;
-
+    height: 90vh;
 }
 
-p{
+#img1>p, #img2>p{
+    background-color: rgba(0, 0, 0, 0.336);
+    display: inline-block;
+    white-space: pre-line;
     font-size: 05vh;
+    text-align: justify;
+    margin-left:20px;
+    margin-top: 90px;
+    padding:20px 20px 20px 2px;
+}
+
+
+.texto>p{
+    font-size: 05vh;
+    text-align: justify;
     
 }
 
@@ -97,4 +103,5 @@ footer>p{
     background-color: black;
     text-align: center;
     margin-bottom: 0px;
+    font-size: 05vh;
 }
