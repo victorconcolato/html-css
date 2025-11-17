@@ -11,11 +11,8 @@ a{
     color: white;
 }
 
-
-
 strong{
     font-weight: bolder;
-
 
 }
 body{
@@ -27,7 +24,8 @@ body{
 header{
     background-color: black;
     padding-bottom:10px;
-    height: 40vh;
+    height: 80vh;
+    width: 100vw;
 }
 
 header>h1{
